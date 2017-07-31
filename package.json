@@ -1,0 +1,26 @@
+{
+  "name": "alexa-serverless-template",
+  "version": "1.0.0",
+  "description": "> Template for building an Alexa Skill using Serverless",
+  "main": "handler.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "demo": "node demo.js",
+    "test": "istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^1.7.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.6"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
